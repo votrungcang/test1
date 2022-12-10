@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.mod-header {
+  background: #ddd;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.mod-header h1 {
+  color: red;
+}
+.mod-body {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.mod-body-box {
+  width: 300px;
+  max-height: 250px;
+}
+.mod-body-box-price {
+  display: flex;
+  justify-content: space-between;
+}
